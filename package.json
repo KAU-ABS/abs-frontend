@@ -13,7 +13,8 @@
     "@opentelemetry/api": "^1.6.0",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-icons": "^4.11.0"
   },
   "devDependencies": {
     "@types/node": "latest",
