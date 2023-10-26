@@ -1,5 +1,6 @@
 import React from "react";
 import NavbarItem from "./NavbarItem";
+import { AiOutlineSearch, AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
     return (
@@ -14,9 +15,17 @@ const Navbar = () => {
                         <NavbarItem label="Home" />
                         <NavbarItem label="About" />
                         <NavbarItem label="Contact" />
+                        <NavbarItem label="temp1" />
+                        <NavbarItem label="temp2" />
                     </div>
                     <div className="lg:hidden flex flex-row items-center gap-2 ml-8 cursor-pointer relative">
                         <p className="text-white text-sm">Mobile</p>
+                    </div>
+                    <div className="lg:hidden w-full flex flex-row justify-end">
+                        <div className="flex flex-row gap-8">
+                            {/* <AiOutlineSearch className="text-white text-2xl cursor-pointer" /> */}
+                            <AiOutlineMenu className="text-white text-2xl cursor-pointer" />
+                        </div>
                     </div>
                 </div>
             </nav>

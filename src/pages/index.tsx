@@ -9,17 +9,14 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Aerospace Broadcasting Station</title>
-        <meta name="description" content="abs_hannarae" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/abs_symbol.svg" />
-      </Head>
       <main className='h-full w-full'>
-        <div className="h-full w-full bg-[url('/back2.jpg')] bg-no-repeat bg-center bg-fixed bg-cover">
+        <div className="h-full w-full bg-zinc-800 bg-center bg-fixed bg-cover">
           <Navbar />
           <div className='pt-20'>
-            <p className=''>here is main page</p>
+          </div>
+          <div className='w-full flex flex-col items-center'>
+            <p className='w-fit text-white text-sm'>here is main page</p>
+            <h1 className='w-fit text-white text-8xl'>ABS</h1>
           </div>
         </div>
       </main>

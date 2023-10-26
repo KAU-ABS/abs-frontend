@@ -7,7 +7,7 @@ interface NavbarItemProps {
 const NavbarItem = ({ label }: NavbarItemProps) => {
     return(
         <>
-        <div className="text-white cursor-pointer hover:text-gray-300 transition">
+        <div className="text-white cursor-pointer mx-2 hover:text-gray-300 transition">
             <p>{label}</p>
         </div>
         </>
