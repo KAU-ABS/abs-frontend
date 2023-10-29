@@ -17,6 +17,7 @@ export default function Home() {
           <div className='w-full flex flex-col items-center'>
             <p className='w-fit text-white text-sm'>here is main page</p>
             <h1 className='w-fit text-white text-8xl'>ABS</h1>
+            
           </div>
         </div>
       </main>

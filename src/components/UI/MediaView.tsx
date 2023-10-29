@@ -3,9 +3,10 @@ import React from 'react';
 interface MediaViewProps {
     url: string;
     type: string;
+    label: string;
 };
 
-const MediaView = ({ url, type } : MediaViewProps) => {
+const MediaView = ({ url, type, label } : MediaViewProps) => {
     return (
         <>
         <div className='w-full'>
@@ -20,6 +21,7 @@ const MediaView = ({ url, type } : MediaViewProps) => {
             >
             </video> : <></>}
             {type === 'image' ? <img></img> : <></>}
+            <p>{label}</p>
         </div>
         </>
     )
